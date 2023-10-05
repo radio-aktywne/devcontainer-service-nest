@@ -1,0 +1,14 @@
+---
+# Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
+_commit: 0.2.1
+_src_path: gh:radio-aktywne/template-devcontainer
+accountname: radio-aktywne
+description: Devcontainer for NestJS apps 🐈
+devcontainername: app-nest
+docs: true
+docsurl: https://radio-aktywne.github.io/devcontainer-app-nest
+imagename: devcontainers/app-nest
+registry: true
+releases: true
+reponame: devcontainer-app-nest
+repourl: https://github.com/radio-aktywne/devcontainer-app-nest
