@@ -62,9 +62,9 @@ jobs:
           build
           --
           --image-name
-          'ghcr.io/radio-aktywne/devcontainers/app-nest:latest'
+          'ghcr.io/radio-aktywne/devcontainers/service-nest:latest'
           --image-name
-          'ghcr.io/radio-aktywne/devcontainers/app-nest:${{ github.event.release.tag_name }}'
+          'ghcr.io/radio-aktywne/devcontainers/service-nest:${{ github.event.release.tag_name }}'
           --cache-from
           'type=gha,scope=${{ github.workflow }}'
           --cache-to
