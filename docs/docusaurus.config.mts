@@ -2,10 +2,12 @@ import type * as Preset from "@docusaurus/preset-classic";
 import type { Config } from "@docusaurus/types";
 import { themes } from "prism-react-renderer";
 
-const url = new URL("https://radio-aktywne.github.io/devcontainer-app-nest");
+const url = new URL(
+  "https://radio-aktywne.github.io/devcontainer-service-nest",
+);
 
 const config: Config = {
-  title: "app-nest devcontainer docs",
+  title: "service-nest devcontainer docs",
   favicon: "favicon.svg?v=1",
 
   url: `${url.protocol}//${url.host}`,
@@ -41,14 +43,14 @@ const config: Config = {
 
   themeConfig: {
     navbar: {
-      title: "app-nest devcontainer docs",
+      title: "service-nest devcontainer docs",
       logo: {
-        alt: "app-nest devcontainer docs logo",
+        alt: "service-nest devcontainer docs logo",
         src: "logo.svg?v=1",
       },
       items: [
         {
-          href: "https://github.com/radio-aktywne/devcontainer-app-nest",
+          href: "https://github.com/radio-aktywne/devcontainer-service-nest",
           position: "right",
           className: "header-github-link",
           "aria-label": "GitHub repository",
